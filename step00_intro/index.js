@@ -8,6 +8,11 @@
 // letter user ="Teacher";
 // console.log(user); // Unknown keyword or identifier. Did you mean 'let ter'?
 // 00d assignability error
-var admin = 0;
-admin = "safia";
-console.log(admin);
+// let admin = 0;
+// admin = "safia"
+// console.log(admin);   //Type 'string' is not assignable to type 'number'.
+// //strongly typed syntax
+var firstname = "hira";
+var no = 90;
+no = 7;
+console.log(no);

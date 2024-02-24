@@ -24,6 +24,20 @@
 
 
 
+// //strongly typed syntax  Explicit
+
+// let firstname: string = "hira";
+// let no:number = 90;
+// no = 7
+
+// console.log(no);
+
+
+//type inference  Imlipcit
+
+// let lastname = "Ekram";
+
+
 
 
 
