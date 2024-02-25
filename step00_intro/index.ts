@@ -62,10 +62,32 @@ word.charAt(2); //suggest strings method
 // program.toFixed() //Property 'toFixed' does not exist on type 'string'. Did you mean 'fixed'
 
 
- let students = 4;
+//  let students = 4;
  
 
- export{students}
+//  export{students}
+
+
+
+
+// step02 var,const let
+
+// const b : number = 33; 
+// b = 4  //Cannot assign to 'b' because it is a constant.
+
+
+// let
+// if (true) {
+// 	let z = 4;
+// 	console.log(z);
+    
+// }
+// else {
+//     console.log(z); //Cannot find name 'z
+    
+	
+// }   cannot find let outside their scope
+
 
 
 
