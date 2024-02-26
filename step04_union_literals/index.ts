@@ -51,6 +51,43 @@ let Id = Math.random() <0.5 ? "greater" :1;
 
 
 
+// literals
+
+// Literal Types in TypeScript allow you to specify (constant value) exact values for variables or properties
+// literal typet should be string, no, boolean
+
+// let myStudents:number |"AI" |"Human";
+// myStudents = "AI" //ok
+// myStudents="nima" error //Type '"nima"' is not assignable to type 'number | "AI" | "Human"'.
+
+// let numberOne:string | false|10;
+// numberOne = 9  //Type '9' is not assignable to type 'string | 7 | 10'
+
+
+
+// let Biryani:"Birayni";
+// Biryani = "pulao" // err Type '"pulao"' is not assignable to type '"Birayni"
+
+
+type mix= boolean|number|undefined |string | null
+
+let workLoad:mix ;
+
+// you can combine
+
+type useCase = string| number;
+type id = useCase | boolean| null
+ 
+
+
+
+
+
+
+
+
+
+
 
  
  
